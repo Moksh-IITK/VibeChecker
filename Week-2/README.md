@@ -1,8 +1,7 @@
 # Week 2  & MidEval - Vibe Checker
 
-:::info
-The Basics 
-:::
+###The Basics 
+
 I hope you guys had a good experience with the week 1 resources. They may have been a bit challenging but they were meant to give you a mathematical background into Machine Learning - something which a lot of people lack & something without which progressing forward can be quite challenging. For those of you who felt like it was too theoretical, you guys are going to enjoy this weeks assignment as we will focus purely on implementing things from now. Considering that this is probably the first time you guys are using any ML related framework, I would highly encourage you guys to follow the flow of this document otherwise you would end up getting confused and lost. Trust me, staying structured will save you a lot of time later on.
 
 As I mentioned in the last meet, try to form groups to solve the assignments and since this assignment is a bit long, **you are expected to work in groups formed in the last meet.** Also, your accuracy/results do not matter to me till the time I can see the effort, blatant GPT is always discouraged as opposed to spending time to learn the content.
@@ -18,9 +17,9 @@ I would encourage you guys to spend more time doing the tasks than reading about
 
 ## Artificial Neural Networks
 
-:::success
-Background & Resources
-:::
+
+###Background & Resources
+
 ANNs are the base of most modern Deep Learning algorithms and frameworks. Let's start with implementing basic ANNs using PyTorch and learning about them first. You can skip the resources by watching the entire 3B1B chapter on Deep Learning, if you prefer.
 
 **Resources:**  
@@ -37,9 +36,8 @@ Reference article: [Build an ANN using Torch](https://jillanisofttech.medium.com
 
 ## Convolutional Neural Networks
 
-:::success
-Extension of Neural Networks for Computer Vision (CV) tasks.
-:::
+###Extension of Neural Networks for Computer Vision (CV) tasks.
+
 Here is a paper summarising the basics of CNNs: [CNN Paper](https://arxiv.org/pdf/1511.08458).  
 For those of you who do not like long articles, watch [this](https://www.youtube.com/watch?v=oGpzWAlP5p0) instead (you need not watch Object Detection, that is an advanced CV topic, out of scope for this project).  
 Additionally, this [IBM Article](https://www.ibm.com/think/topics/convolutional-neural-networks#763338459) is also a great resource.
@@ -48,9 +46,8 @@ Additionally, this [IBM Article](https://www.ibm.com/think/topics/convolutional-
 Implement a basic CNN on the [MNIST Dataset](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html) (this is by far the most trivial CV task, shouldn't take you more than a day). Again the deliverable remains the same -- a python notebook with notes on hyperparameter tuning.
 
 ## Recurrent Neural Networks and LSTMs
-:::success
-Extension of Neural Networks for sequential data.
-:::
+
+###Extension of Neural Networks for sequential data.
 
 CNNs are limited to the extent that they cannot process sequential data, the input to a CNN must be of fixed size, but language data need not be of fixed size, to overcome this problem, RNNs were introduced as a basic extension of ANNs. Later on to overcome the shortcomings of RNNs, LSTMs and GRUs were introduced to cater to "memory" as well. 
 
@@ -64,9 +61,8 @@ Resources:
 Stock price prediction using sequential models. [This](https://medium.com/swlh/stock-price-prediction-with-pytorch-37f52ae84632) is a decent reference article, but for this task I would encourage you to create your own dataset (use APIs like [Yahoo Finance](https://pypi.org/project/yfinance/) or get it from Kaggle) and train a sequential model for the same (Brownie points if you can implement both the sequential models!).
 
 ## Transformer Architecture
-:::success
-The most revolutionary architecture in recent years, base for models such as ChatGPT, Gemini and Claude.
-:::
+
+###The most revolutionary architecture in recent years, base for models such as ChatGPT, Gemini and Claude.
 
 This is the basic tech behind all the advanced Large Language Models (LLMs) that you probably use for daily tasks. Was introduced by [this](https://arxiv.org/pdf/1706.03762) revolutionary paper, you may read it if you want to (not a compulsion).
 
